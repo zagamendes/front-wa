@@ -1,0 +1,11 @@
+.movieCard {
+  transition: all 0.2s;
+  cursor: pointer;
+  max-width: 280px;
+  margin-bottom: 30px;
+  transform: scale(0.9);
+}
+.movieCard:hover {
+  transform: scale(1);
+  transition: all 0.2s;
+}
